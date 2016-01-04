@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301B4AA91C278A0C00D868EF /* ZLSwitchCitySearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4AA81C278A0C00D868EF /* ZLSwitchCitySearchView.m */; };
+		301B4ADF1C27E81A00D868EF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4AC71C27E81A00D868EF /* MASCompositeConstraint.m */; };
+		301B4AE01C27E81A00D868EF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4ACA1C27E81A00D868EF /* MASConstraint.m */; };
+		301B4AE11C27E81A00D868EF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4ACC1C27E81A00D868EF /* MASConstraintMaker.m */; };
+		301B4AE21C27E81A00D868EF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4ACE1C27E81A00D868EF /* MASLayoutConstraint.m */; };
+		301B4AE31C27E81A00D868EF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4AD21C27E81A00D868EF /* MASViewAttribute.m */; };
+		301B4AE41C27E81A00D868EF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4AD41C27E81A00D868EF /* MASViewConstraint.m */; };
+		301B4AE51C27E81A00D868EF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4AD61C27E81A00D868EF /* NSArray+MASAdditions.m */; };
+		301B4AE61C27E81A00D868EF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4AD91C27E81A00D868EF /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		301B4AE71C27E81A00D868EF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4ADB1C27E81A00D868EF /* View+MASAdditions.m */; };
+		301B4AE81C27E81A00D868EF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4ADE1C27E81A00D868EF /* ViewController+MASAdditions.m */; };
+		3049F5361C223F61004C5DE2 /* UIView+ZLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049F5351C223F61004C5DE2 /* UIView+ZLFrame.m */; };
+		30E222871C20EE70006B56CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222861C20EE70006B56CE /* main.m */; };
+		30E2228A1C20EE70006B56CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222891C20EE70006B56CE /* AppDelegate.m */; };
+		30E2228D1C20EE70006B56CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2228C1C20EE70006B56CE /* ViewController.m */; };
+		30E222901C20EE70006B56CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E2228E1C20EE70006B56CE /* Main.storyboard */; };
+		30E222921C20EE70006B56CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E222911C20EE70006B56CE /* Assets.xcassets */; };
+		30E222951C20EE70006B56CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E222931C20EE70006B56CE /* LaunchScreen.storyboard */; };
+		30E222AB1C20FCDC006B56CE /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222AA1C20FCDC006B56CE /* NSArray+Log.m */; };
+		30E222AE1C20FE88006B56CE /* UIImage+ZLResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222AD1C20FE88006B56CE /* UIImage+ZLResizableImage.m */; };
+		30E222B11C20FFA7006B56CE /* ZLSwitchCityDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222B01C20FFA7006B56CE /* ZLSwitchCityDropDownMenu.m */; };
+		30E222EE1C21048A006B56CE /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222CE1C21048A006B56CE /* MJArgument.m */; };
+		30E222EF1C21048A006B56CE /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222D01C21048A006B56CE /* MJConst.m */; };
+		30E222F01C21048A006B56CE /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222D31C21048A006B56CE /* MJFoundation.m */; };
+		30E222F11C21048A006B56CE /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222D51C21048A006B56CE /* MJIvar.m */; };
+		30E222F21C21048A006B56CE /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222D71C21048A006B56CE /* MJMember.m */; };
+		30E222F31C21048A006B56CE /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222D91C21048A006B56CE /* MJMethod.m */; };
+		30E222F41C21048A006B56CE /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222DB1C21048A006B56CE /* MJType.m */; };
+		30E222F51C21048A006B56CE /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222DD1C21048A006B56CE /* MJTypeEncoding.m */; };
+		30E222F61C21048A006B56CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222DF1C21048A006B56CE /* NSObject+MJCoding.m */; };
+		30E222F71C21048A006B56CE /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222E11C21048A006B56CE /* NSObject+MJKeyValue.m */; };
+		30E222F81C21048A006B56CE /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E222E31C21048A006B56CE /* NSObject+MJMember.m */; };
+		30FD6AA61C229D1F0002F728 /* ZLSwitchCityDropDownCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6AA51C229D1F0002F728 /* ZLSwitchCityDropDownCityView.m */; };
+		30FD6AA81C229F8C0002F728 /* ZLSwitchCityDropDownCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FD6AA71C229F8C0002F728 /* ZLSwitchCityDropDownCityView.xib */; };
+		30FD6AB01C22B0970002F728 /* ZLCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6AAF1C22B0970002F728 /* ZLCity.m */; };
+		30FD6AB31C22B0A70002F728 /* ZLCityGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6AB21C22B0A70002F728 /* ZLCityGroups.m */; };
+		30FD6AB91C22B1290002F728 /* ZLRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6AB81C22B1290002F728 /* ZLRegion.m */; };
+		30FE8C2A1C28D43D00B607E5 /* ZLSwitchCitySearchResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FE8C291C28D43D00B607E5 /* ZLSwitchCitySearchResultView.m */; };
+		30FE8C3A1C291E4000B607E5 /* ZLSwitchCityDropDownCityMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FE8C391C291E4000B607E5 /* ZLSwitchCityDropDownCityMainCell.m */; };
+		30FE8C3D1C291E5100B607E5 /* ZLSwitchCityDropDownCitySubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FE8C3C1C291E5100B607E5 /* ZLSwitchCityDropDownCitySubCell.m */; };
+		30FE8C711C29524A00B607E5 /* ZLSwitchCityBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30FE8C701C29524A00B607E5 /* ZLSwitchCityBundle.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301B4AA71C278A0C00D868EF /* ZLSwitchCitySearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwitchCitySearchView.h; sourceTree = "<group>"; };
+		301B4AA81C278A0C00D868EF /* ZLSwitchCitySearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwitchCitySearchView.m; sourceTree = "<group>"; };
+		301B4AC61C27E81A00D868EF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		301B4AC71C27E81A00D868EF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		301B4AC81C27E81A00D868EF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		301B4AC91C27E81A00D868EF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		301B4ACA1C27E81A00D868EF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		301B4ACB1C27E81A00D868EF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		301B4ACC1C27E81A00D868EF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		301B4ACD1C27E81A00D868EF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		301B4ACE1C27E81A00D868EF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		301B4ACF1C27E81A00D868EF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		301B4AD01C27E81A00D868EF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		301B4AD11C27E81A00D868EF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		301B4AD21C27E81A00D868EF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		301B4AD31C27E81A00D868EF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		301B4AD41C27E81A00D868EF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		301B4AD51C27E81A00D868EF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		301B4AD61C27E81A00D868EF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		301B4AD71C27E81A00D868EF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		301B4AD81C27E81A00D868EF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		301B4AD91C27E81A00D868EF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		301B4ADA1C27E81A00D868EF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		301B4ADB1C27E81A00D868EF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		301B4ADC1C27E81A00D868EF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		301B4ADD1C27E81A00D868EF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		301B4ADE1C27E81A00D868EF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3049F5341C223F61004C5DE2 /* UIView+ZLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLFrame.h"; sourceTree = "<group>"; };
+		3049F5351C223F61004C5DE2 /* UIView+ZLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLFrame.m"; sourceTree = "<group>"; };
+		30E222821C20EE70006B56CE /* ZLSwitchCityController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSwitchCityController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E222861C20EE70006B56CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30E222881C20EE70006B56CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30E222891C20EE70006B56CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30E2228B1C20EE70006B56CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30E2228C1C20EE70006B56CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30E2228F1C20EE70006B56CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E222911C20EE70006B56CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E222941C20EE70006B56CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E222961C20EE70006B56CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E222A91C20FCDC006B56CE /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		30E222AA1C20FCDC006B56CE /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		30E222AC1C20FE88006B56CE /* UIImage+ZLResizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZLResizableImage.h"; sourceTree = "<group>"; };
+		30E222AD1C20FE88006B56CE /* UIImage+ZLResizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZLResizableImage.m"; sourceTree = "<group>"; };
+		30E222AF1C20FFA7006B56CE /* ZLSwitchCityDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwitchCityDropDownMenu.h; sourceTree = "<group>"; };
+		30E222B01C20FFA7006B56CE /* ZLSwitchCityDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwitchCityDropDownMenu.m; sourceTree = "<group>"; };
+		30E222CD1C21048A006B56CE /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		30E222CE1C21048A006B56CE /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		30E222CF1C21048A006B56CE /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
+		30E222D01C21048A006B56CE /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
+		30E222D11C21048A006B56CE /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		30E222D21C21048A006B56CE /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		30E222D31C21048A006B56CE /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		30E222D41C21048A006B56CE /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		30E222D51C21048A006B56CE /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		30E222D61C21048A006B56CE /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		30E222D71C21048A006B56CE /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		30E222D81C21048A006B56CE /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		30E222D91C21048A006B56CE /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		30E222DA1C21048A006B56CE /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		30E222DB1C21048A006B56CE /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		30E222DC1C21048A006B56CE /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		30E222DD1C21048A006B56CE /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		30E222DE1C21048A006B56CE /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		30E222DF1C21048A006B56CE /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		30E222E01C21048A006B56CE /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		30E222E11C21048A006B56CE /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		30E222E21C21048A006B56CE /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		30E222E31C21048A006B56CE /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		30FD6AA41C229D1F0002F728 /* ZLSwitchCityDropDownCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwitchCityDropDownCityView.h; sourceTree = "<group>"; };
+		30FD6AA51C229D1F0002F728 /* ZLSwitchCityDropDownCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwitchCityDropDownCityView.m; sourceTree = "<group>"; };
+		30FD6AA71C229F8C0002F728 /* ZLSwitchCityDropDownCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLSwitchCityDropDownCityView.xib; sourceTree = "<group>"; };
+		30FD6AAE1C22B0970002F728 /* ZLCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCity.h; sourceTree = "<group>"; };
+		30FD6AAF1C22B0970002F728 /* ZLCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCity.m; sourceTree = "<group>"; };
+		30FD6AB11C22B0A70002F728 /* ZLCityGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCityGroups.h; sourceTree = "<group>"; };
+		30FD6AB21C22B0A70002F728 /* ZLCityGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCityGroups.m; sourceTree = "<group>"; };
+		30FD6AB71C22B1290002F728 /* ZLRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRegion.h; sourceTree = "<group>"; };
+		30FD6AB81C22B1290002F728 /* ZLRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRegion.m; sourceTree = "<group>"; };
+		30FE8C281C28D43D00B607E5 /* ZLSwitchCitySearchResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwitchCitySearchResultView.h; sourceTree = "<group>"; };
+		30FE8C291C28D43D00B607E5 /* ZLSwitchCitySearchResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwitchCitySearchResultView.m; sourceTree = "<group>"; };
+		30FE8C2E1C28E7A800B607E5 /* ZLCommonConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCommonConst.h; sourceTree = "<group>"; };
+		30FE8C381C291E4000B607E5 /* ZLSwitchCityDropDownCityMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwitchCityDropDownCityMainCell.h; sourceTree = "<group>"; };
+		30FE8C391C291E4000B607E5 /* ZLSwitchCityDropDownCityMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwitchCityDropDownCityMainCell.m; sourceTree = "<group>"; };
+		30FE8C3B1C291E5100B607E5 /* ZLSwitchCityDropDownCitySubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwitchCityDropDownCitySubCell.h; sourceTree = "<group>"; };
+		30FE8C3C1C291E5100B607E5 /* ZLSwitchCityDropDownCitySubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwitchCityDropDownCitySubCell.m; sourceTree = "<group>"; };
+		30FE8C701C29524A00B607E5 /* ZLSwitchCityBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZLSwitchCityBundle.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E2227F1C20EE70006B56CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301B4AC51C27E81A00D868EF /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				301B4AC61C27E81A00D868EF /* MASCompositeConstraint.h */,
+				301B4AC71C27E81A00D868EF /* MASCompositeConstraint.m */,
+				301B4AC81C27E81A00D868EF /* MASConstraint+Private.h */,
+				301B4AC91C27E81A00D868EF /* MASConstraint.h */,
+				301B4ACA1C27E81A00D868EF /* MASConstraint.m */,
+				301B4ACB1C27E81A00D868EF /* MASConstraintMaker.h */,
+				301B4ACC1C27E81A00D868EF /* MASConstraintMaker.m */,
+				301B4ACD1C27E81A00D868EF /* MASLayoutConstraint.h */,
+				301B4ACE1C27E81A00D868EF /* MASLayoutConstraint.m */,
+				301B4ACF1C27E81A00D868EF /* Masonry.h */,
+				301B4AD01C27E81A00D868EF /* MASUtilities.h */,
+				301B4AD11C27E81A00D868EF /* MASViewAttribute.h */,
+				301B4AD21C27E81A00D868EF /* MASViewAttribute.m */,
+				301B4AD31C27E81A00D868EF /* MASViewConstraint.h */,
+				301B4AD41C27E81A00D868EF /* MASViewConstraint.m */,
+				301B4AD51C27E81A00D868EF /* NSArray+MASAdditions.h */,
+				301B4AD61C27E81A00D868EF /* NSArray+MASAdditions.m */,
+				301B4AD71C27E81A00D868EF /* NSArray+MASShorthandAdditions.h */,
+				301B4AD81C27E81A00D868EF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				301B4AD91C27E81A00D868EF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				301B4ADA1C27E81A00D868EF /* View+MASAdditions.h */,
+				301B4ADB1C27E81A00D868EF /* View+MASAdditions.m */,
+				301B4ADC1C27E81A00D868EF /* View+MASShorthandAdditions.h */,
+				301B4ADD1C27E81A00D868EF /* ViewController+MASAdditions.h */,
+				301B4ADE1C27E81A00D868EF /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		30E222791C20EE6F006B56CE = {
+			isa = PBXGroup;
+			children = (
+				30E222841C20EE70006B56CE /* ZLSwitchCityController */,
+				30E222831C20EE70006B56CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E222831C20EE70006B56CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E222821C20EE70006B56CE /* ZLSwitchCityController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E222841C20EE70006B56CE /* ZLSwitchCityController */ = {
+			isa = PBXGroup;
+			children = (
+				30E2229C1C20F17B006B56CE /* ZLSwithCity */,
+				30E222881C20EE70006B56CE /* AppDelegate.h */,
+				30E222891C20EE70006B56CE /* AppDelegate.m */,
+				30E2228B1C20EE70006B56CE /* ViewController.h */,
+				30E2228C1C20EE70006B56CE /* ViewController.m */,
+				30E2228E1C20EE70006B56CE /* Main.storyboard */,
+				30E222911C20EE70006B56CE /* Assets.xcassets */,
+				30E222931C20EE70006B56CE /* LaunchScreen.storyboard */,
+				30E222961C20EE70006B56CE /* Info.plist */,
+				30E222851C20EE70006B56CE /* Supporting Files */,
+			);
+			path = ZLSwitchCityController;
+			sourceTree = "<group>";
+		};
+		30E222851C20EE70006B56CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E222861C20EE70006B56CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30E2229C1C20F17B006B56CE /* ZLSwithCity */ = {
+			isa = PBXGroup;
+			children = (
+				30FE8C2E1C28E7A800B607E5 /* ZLCommonConst.h */,
+				30FE8C701C29524A00B607E5 /* ZLSwitchCityBundle.bundle */,
+				30E222A81C20FCB9006B56CE /* Category */,
+				30E2229E1C20F17B006B56CE /* Models */,
+				30E2229F1C20F17B006B56CE /* Util */,
+				30E222A01C20F17B006B56CE /* ViewControllers */,
+				30E222A11C20F17B006B56CE /* Views */,
+			);
+			path = ZLSwithCity;
+			sourceTree = "<group>";
+		};
+		30E2229E1C20F17B006B56CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30FD6AAE1C22B0970002F728 /* ZLCity.h */,
+				30FD6AAF1C22B0970002F728 /* ZLCity.m */,
+				30FD6AB11C22B0A70002F728 /* ZLCityGroups.h */,
+				30FD6AB21C22B0A70002F728 /* ZLCityGroups.m */,
+				30FD6AB71C22B1290002F728 /* ZLRegion.h */,
+				30FD6AB81C22B1290002F728 /* ZLRegion.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30E2229F1C20F17B006B56CE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				301B4AC51C27E81A00D868EF /* Masonry */,
+				30E222CC1C21048A006B56CE /* MJExtension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		30E222A01C20F17B006B56CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30E222A11C20F17B006B56CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30E222AF1C20FFA7006B56CE /* ZLSwitchCityDropDownMenu.h */,
+				30E222B01C20FFA7006B56CE /* ZLSwitchCityDropDownMenu.m */,
+				30FD6AA41C229D1F0002F728 /* ZLSwitchCityDropDownCityView.h */,
+				30FD6AA51C229D1F0002F728 /* ZLSwitchCityDropDownCityView.m */,
+				30FD6AA71C229F8C0002F728 /* ZLSwitchCityDropDownCityView.xib */,
+				301B4AA71C278A0C00D868EF /* ZLSwitchCitySearchView.h */,
+				301B4AA81C278A0C00D868EF /* ZLSwitchCitySearchView.m */,
+				30FE8C281C28D43D00B607E5 /* ZLSwitchCitySearchResultView.h */,
+				30FE8C291C28D43D00B607E5 /* ZLSwitchCitySearchResultView.m */,
+				30FE8C381C291E4000B607E5 /* ZLSwitchCityDropDownCityMainCell.h */,
+				30FE8C391C291E4000B607E5 /* ZLSwitchCityDropDownCityMainCell.m */,
+				30FE8C3B1C291E5100B607E5 /* ZLSwitchCityDropDownCitySubCell.h */,
+				30FE8C3C1C291E5100B607E5 /* ZLSwitchCityDropDownCitySubCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30E222A81C20FCB9006B56CE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				30E222A91C20FCDC006B56CE /* NSArray+Log.h */,
+				30E222AA1C20FCDC006B56CE /* NSArray+Log.m */,
+				30E222AC1C20FE88006B56CE /* UIImage+ZLResizableImage.h */,
+				30E222AD1C20FE88006B56CE /* UIImage+ZLResizableImage.m */,
+				3049F5341C223F61004C5DE2 /* UIView+ZLFrame.h */,
+				3049F5351C223F61004C5DE2 /* UIView+ZLFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		30E222CC1C21048A006B56CE /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				30E222CD1C21048A006B56CE /* MJArgument.h */,
+				30E222CE1C21048A006B56CE /* MJArgument.m */,
+				30E222CF1C21048A006B56CE /* MJConst.h */,
+				30E222D01C21048A006B56CE /* MJConst.m */,
+				30E222D11C21048A006B56CE /* MJExtension.h */,
+				30E222D21C21048A006B56CE /* MJFoundation.h */,
+				30E222D31C21048A006B56CE /* MJFoundation.m */,
+				30E222D41C21048A006B56CE /* MJIvar.h */,
+				30E222D51C21048A006B56CE /* MJIvar.m */,
+				30E222D61C21048A006B56CE /* MJMember.h */,
+				30E222D71C21048A006B56CE /* MJMember.m */,
+				30E222D81C21048A006B56CE /* MJMethod.h */,
+				30E222D91C21048A006B56CE /* MJMethod.m */,
+				30E222DA1C21048A006B56CE /* MJType.h */,
+				30E222DB1C21048A006B56CE /* MJType.m */,
+				30E222DC1C21048A006B56CE /* MJTypeEncoding.h */,
+				30E222DD1C21048A006B56CE /* MJTypeEncoding.m */,
+				30E222DE1C21048A006B56CE /* NSObject+MJCoding.h */,
+				30E222DF1C21048A006B56CE /* NSObject+MJCoding.m */,
+				30E222E01C21048A006B56CE /* NSObject+MJKeyValue.h */,
+				30E222E11C21048A006B56CE /* NSObject+MJKeyValue.m */,
+				30E222E21C21048A006B56CE /* NSObject+MJMember.h */,
+				30E222E31C21048A006B56CE /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E222811C20EE70006B56CE /* ZLSwitchCityController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E222991C20EE70006B56CE /* Build configuration list for PBXNativeTarget "ZLSwitchCityController" */;
+			buildPhases = (
+				30E2227E1C20EE70006B56CE /* Sources */,
+				30E2227F1C20EE70006B56CE /* Frameworks */,
+				30E222801C20EE70006B56CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLSwitchCityController;
+			productName = ZLSwitchCityController;
+			productReference = 30E222821C20EE70006B56CE /* ZLSwitchCityController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E2227A1C20EE6F006B56CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZL;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhao;
+				TargetAttributes = {
+					30E222811C20EE70006B56CE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 30E2227D1C20EE6F006B56CE /* Build configuration list for PBXProject "ZLSwitchCityController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E222791C20EE6F006B56CE;
+			productRefGroup = 30E222831C20EE70006B56CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E222811C20EE70006B56CE /* ZLSwitchCityController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E222801C20EE70006B56CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E222951C20EE70006B56CE /* LaunchScreen.storyboard in Resources */,
+				30FE8C711C29524A00B607E5 /* ZLSwitchCityBundle.bundle in Resources */,
+				30E222921C20EE70006B56CE /* Assets.xcassets in Resources */,
+				30E222901C20EE70006B56CE /* Main.storyboard in Resources */,
+				30FD6AA81C229F8C0002F728 /* ZLSwitchCityDropDownCityView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E2227E1C20EE70006B56CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FD6AB01C22B0970002F728 /* ZLCity.m in Sources */,
+				301B4AE31C27E81A00D868EF /* MASViewAttribute.m in Sources */,
+				301B4AE51C27E81A00D868EF /* NSArray+MASAdditions.m in Sources */,
+				30E222F11C21048A006B56CE /* MJIvar.m in Sources */,
+				30E222F01C21048A006B56CE /* MJFoundation.m in Sources */,
+				30E222F71C21048A006B56CE /* NSObject+MJKeyValue.m in Sources */,
+				30FE8C3D1C291E5100B607E5 /* ZLSwitchCityDropDownCitySubCell.m in Sources */,
+				30E222F41C21048A006B56CE /* MJType.m in Sources */,
+				30E222EE1C21048A006B56CE /* MJArgument.m in Sources */,
+				30E222F21C21048A006B56CE /* MJMember.m in Sources */,
+				30E222F81C21048A006B56CE /* NSObject+MJMember.m in Sources */,
+				30E222F31C21048A006B56CE /* MJMethod.m in Sources */,
+				30E222B11C20FFA7006B56CE /* ZLSwitchCityDropDownMenu.m in Sources */,
+				30FE8C2A1C28D43D00B607E5 /* ZLSwitchCitySearchResultView.m in Sources */,
+				30FD6AA61C229D1F0002F728 /* ZLSwitchCityDropDownCityView.m in Sources */,
+				301B4AE01C27E81A00D868EF /* MASConstraint.m in Sources */,
+				30FD6AB91C22B1290002F728 /* ZLRegion.m in Sources */,
+				30FE8C3A1C291E4000B607E5 /* ZLSwitchCityDropDownCityMainCell.m in Sources */,
+				301B4AE41C27E81A00D868EF /* MASViewConstraint.m in Sources */,
+				301B4AE71C27E81A00D868EF /* View+MASAdditions.m in Sources */,
+				301B4AE11C27E81A00D868EF /* MASConstraintMaker.m in Sources */,
+				301B4AA91C278A0C00D868EF /* ZLSwitchCitySearchView.m in Sources */,
+				301B4ADF1C27E81A00D868EF /* MASCompositeConstraint.m in Sources */,
+				30FD6AB31C22B0A70002F728 /* ZLCityGroups.m in Sources */,
+				30E2228D1C20EE70006B56CE /* ViewController.m in Sources */,
+				3049F5361C223F61004C5DE2 /* UIView+ZLFrame.m in Sources */,
+				301B4AE61C27E81A00D868EF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				30E222F61C21048A006B56CE /* NSObject+MJCoding.m in Sources */,
+				30E222AB1C20FCDC006B56CE /* NSArray+Log.m in Sources */,
+				30E222F51C21048A006B56CE /* MJTypeEncoding.m in Sources */,
+				30E222AE1C20FE88006B56CE /* UIImage+ZLResizableImage.m in Sources */,
+				301B4AE21C27E81A00D868EF /* MASLayoutConstraint.m in Sources */,
+				30E2228A1C20EE70006B56CE /* AppDelegate.m in Sources */,
+				30E222EF1C21048A006B56CE /* MJConst.m in Sources */,
+				301B4AE81C27E81A00D868EF /* ViewController+MASAdditions.m in Sources */,
+				30E222871C20EE70006B56CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30E2228E1C20EE70006B56CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E2228F1C20EE70006B56CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E222931C20EE70006B56CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E222941C20EE70006B56CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E222971C20EE70006B56CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30E222981C20EE70006B56CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E2229A1C20EE70006B56CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZLSwitchCityController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhao.ZLSwitchCityController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30E2229B1C20EE70006B56CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZLSwitchCityController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhao.ZLSwitchCityController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E2227D1C20EE6F006B56CE /* Build configuration list for PBXProject "ZLSwitchCityController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E222971C20EE70006B56CE /* Debug */,
+				30E222981C20EE70006B56CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E222991C20EE70006B56CE /* Build configuration list for PBXNativeTarget "ZLSwitchCityController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E2229A1C20EE70006B56CE /* Debug */,
+				30E2229B1C20EE70006B56CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E2227A1C20EE6F006B56CE /* Project object */;
+}
